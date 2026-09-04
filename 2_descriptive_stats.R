@@ -2,13 +2,6 @@
 #### Descriptive statistics 
 
 
-#### SCRIPT OBJECTIVE 
-# In this script I...
-
-#### OBJECTS CREATED 
-
-
-
 #### LOAD LIBRARIES 
 library(tidyverse)
 library(PNWColors)
@@ -457,8 +450,8 @@ plot_grid = plot_grid(
   rel_heights = c(1, 0.3)
 )
 plot_grid
-# ggsave("plots/year_breakdown_model_categories_scatterplot.png", plot_grid,
-#         width=10, height = 5, units= "in", dpi= 300)
+ ggsave("plots/year_breakdown_model_categories_scatterplot.png", plot_grid,
+         width=10, height = 5, units= "in", dpi= 300)
 # # # 
 
 #### BY YEAR
@@ -489,8 +482,8 @@ total_year_breakdown_plot= total_year_breakdown %>%
        title= "") 
 
 plot(total_year_breakdown_plot)
-# ggsave("plots/total_reports_over_year_scatterplot.png", plot=total_year_breakdown_plot,
-#          width=8, height = 5, units= "in", dpi= 300)
+ ggsave("plots/total_reports_over_year_scatterplot.png", plot=total_year_breakdown_plot,
+          width=8, height = 5, units= "in", dpi= 300)
 
 
 
@@ -593,9 +586,9 @@ uncertainty_listing = reshaped_data %>% filter(!is.na(Uncertainty_reported),
        y= "Number of quantitative models",
        fill= "Degree of uncertainty in the model")
 
-# ggsave("plots/uncertainty_effects_listing_barplot.png", plot=uncertainty_listing ,
+#  ggsave("plots/uncertainty_effects_listing_barplot.png", plot=uncertainty_listing ,
 #            width=10, height = 5, units= "in", dpi= 300)
-#  # 
+# #  # 
 
 
 
@@ -673,8 +666,8 @@ type_model_by_tax = type_used_criteria_by_tax %>%
                     values= c("#41476b", "#9e6374", "#de9b71", "#fbdfa2"))
 
 plot(type_model_by_tax)
-# ggsave("plots/types_of_models_used_for_taxonomic_groups_barplot.png", plot=type_model_by_tax,
-#              width=8, height = 6, units= "in", dpi= 300)
+ggsave("plots/types_of_models_used_for_taxonomic_groups_barplot.png", plot=type_model_by_tax,
+              width=8, height = 6, units= "in", dpi= 300)
 # 
 
 
