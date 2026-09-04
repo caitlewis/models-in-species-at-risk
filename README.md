@@ -14,6 +14,9 @@ Jayme M. Lewthwaite
 ## Purpose
 We assessed quantitative model usage by the Committee on the Status of Endangered Wildlife in Canada (COSEWIC) in Species at Risk Reports. The code in this repository shows how we cleaned our dataset, designed our figures, and fit our linear regressions. 
 
+## Packages required
+plyr, tidyverse, udpipe, PNWColors, cowplot, stringr,reshape, udpipe, forcats, lme4, gtsummary
+
 ## Scripts
 1_data_cleaning : Input, the original dataset; Output, clean_dataset and reshaped_dataset <br>
 2_descriptive_stats: Input, clean_dataset and reshaped_dataset; Output, Figures <br>
