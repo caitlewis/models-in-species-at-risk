@@ -3,7 +3,6 @@
 ## Title
 Describing the Use of Quantitative Models in Canadian Extinction Risk Assessments
 
-<<<<<<< HEAD
 =======
 ## Authors
 Aaliyah Ampah <br> 
@@ -17,7 +16,7 @@ Jayme M. Lewthwaite
 We assessed quantitative model usage by the Committee on the Status of Endangered Wildlife in Canada (COSEWIC) in Species at Risk Reports. The code in this repository shows how we cleaned our dataset, designed our figures, and fit our linear regressions. 
 
 ## Packages required
-plyr, tidyverse, udpipe, PNWColors, cowplot, stringr,reshape, udpipe, forcats, lme4, gtsummary
+plyr, tidyverse, udpipe, PNWColors, cowplot, stringr,reshape, udpipe, forcats, lme4, gtsummary, glmmTMB
 
 ## Scripts
 1_data_cleaning : Input, the original dataset; Output, clean_dataset and reshaped_dataset <br>
